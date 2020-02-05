@@ -1,4 +1,10 @@
 
+import os
+import sys
+
+sys.path.append(os.path.abspath('./utils'))
+sys.path.append(os.path.abspath('./models'))
+
 import argparse
 import time
 import logging
