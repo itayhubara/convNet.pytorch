@@ -5,7 +5,7 @@ experimentEnv:
   EVAL_SECS: 10
   MAX_STEPS: 1500
   TRAIN_EPOCHS: 15
-machineType: c5.xlarge
+machineType: p2.xlarge
 clusterId : cltge23zh
 vpc: True
 modelPath: /artifacts
