@@ -1,4 +1,4 @@
-command: git submodule update --init --recursive && python main.py --model resnet --dataset cifar10 --save /artifacts --datasets-dir /storage
+command: git submodule update --init --recursive && ls utils && python main.py --model resnet --dataset cifar10 --save /artifacts --datasets-dir /storage
 container: itayhubara/pytorch:convnet_pyt
 experimentEnv:
   EPOCHS_EVAL: 10
