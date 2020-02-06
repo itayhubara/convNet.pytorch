@@ -2,8 +2,8 @@
 import os
 import sys
 
-sys.path.append('./utils')
-sys.path.append('./models')
+sys.path.append(path.abspath(path.join(path.dirname(__file__), "./utils")))
+sys.path.append(path.abspath(path.join(path.dirname(__file__), "./models")))
 
 import argparse
 import time
