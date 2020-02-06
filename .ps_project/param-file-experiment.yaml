@@ -1,4 +1,4 @@
-command: python main.py --model resnet --dataset cifar10 --save /artifacts --datasets-dir /storage
+command: git submodule init && python main.py --model resnet --dataset cifar10 --save /artifacts --datasets-dir /storage
 container: itayhubara/pytorch:convnet_pyt
 experimentEnv:
   EPOCHS_EVAL: 10
