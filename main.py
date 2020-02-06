@@ -2,8 +2,8 @@
 import os
 import sys
 
-sys.path.append(os.path.abspath('./utils'))
-sys.path.append(os.path.abspath('./models'))
+sys.path.append('./utils')
+sys.path.append('./models')
 
 import argparse
 import time
