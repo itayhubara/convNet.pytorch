@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append('.')
+
 from .alexnet import *
 from .resnet import *
 from .resnet_zi import *

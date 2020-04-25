@@ -1,0 +1,10 @@
+clusterId: cljdd692n
+command: python classify/classify.py
+container: pytorch/pytorch:latest
+experimentEnv: 
+    TRAIN_EPOCHS: 5
+    BATCH_SIZE: 64
+machineType: p2.xlarge
+modelType: ONNX
+name: classify-singlenode
+tensorboard: false
